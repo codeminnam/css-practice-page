@@ -69,7 +69,8 @@ p {
 /* Landing page */
 
 .landing {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #FDDED8;
     display: flex;
     flex-direction: column;
@@ -112,7 +113,8 @@ p {
 /* Testimonials page */
 
 .testimonials {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #F4F5F7;
     color: #2B292D;
     display: flex;
@@ -124,33 +126,99 @@ p {
 .testimonials h2 {
     margin-bottom: 16px;
     font-size: 22px;
+    font-weight: 700;
     line-height: 1.3636363636;
     letter-spacing: -0.04em;
 }
 
-.testimonials p {
+.testimonials p:first-of-type{
     margin-bottom: 40px;
 }
 
-
+/* Program page */
 
 .program {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #FFFFFF;
+    color: #2B292D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textgroup-propram {
+    margin-bottom: 32px;
+}
+
+.textgroup-propram strong {
+    margin-bottom: 8px;
+    color: #009B4D;
+    font-weight: 700;
+}
+
+.textgroup-propram h1 {
+    margin-bottom: 24px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.0588235294;
+}
+
+.cardgroup-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardgroup-program img {
+    width:auto;
+    height: 195px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.cardgroup-program strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3333333333;
+    letter-spacing: -0.02em;
+}
+
+.card-full-campus,
+.card-full-remote,
+.card-part-flex {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.card-part-flex {
+    margin-bottom: 0;
 }
 
 .curriculum {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #FFFFFF;
 }
 
 .banner {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #F2F8FA;
 }
 
 .footer {
-    height: 100vh;
+    padding: 80px 15px;
+    min-height: 100vh;
     background-color: #FFFFFF;
 }
 
