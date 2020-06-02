@@ -80,10 +80,12 @@ p {
 
 .landing h1 {
     margin-bottom: 24px;
+    color: #2B292D;
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.05em;
+    
 }
 
 .landing p {
@@ -107,10 +109,30 @@ p {
     
 }
 
+/* Testimonials page */
+
 .testimonials {
     height: 100vh;
     background-color: #F4F5F7;
+    color: #2B292D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.testimonials h2 {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.3636363636;
+    letter-spacing: -0.04em;
+}
+
+.testimonials p {
+    margin-bottom: 40px;
+}
+
+
 
 .program {
     height: 100vh;
