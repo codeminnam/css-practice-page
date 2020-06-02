@@ -204,10 +204,55 @@ p {
     margin-bottom: 0;
 }
 
+/* Curriculum page */
+
 .curriculum {
     padding: 80px 15px;
     min-height: 100vh;
     background-color: #FFFFFF;
+}
+
+.header-curriculum {
+    margin-bottom: 48px;
+}
+
+.header-curriculum strong {
+    margin-bottom: 8px;
+    color: #0189D1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+.header-curriculum h1 {
+    margin-bottom: 24px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.0588235294;
+    letter-spacing: -0.03em;
+}
+
+.header-curriculum p {
+    margin-bottom: 32px;
+}
+
+.header-curriculum button {
+    background-color: #3040C4;
+    color: #FFFFFF;
+    width: 140px;
+    height: 48px;
+    border-radius: 2px;
+}
+
+.detail-curriculum {
+    font-size: 15px;
+    line-height: 1.4666666667;
+    letter-spacing: -0.01em;
+}
+
+.detail-curriculum p:first-of-type{
+    margin-bottom: 40px;
 }
 
 .banner {
