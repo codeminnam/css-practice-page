@@ -18,6 +18,7 @@ input,
 textarea {
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
+    border: none;
 }
 
 button:focus,
@@ -65,9 +66,45 @@ p {
 
 /* CSS for mobile */
 
+/* Landing page */
+
 .landing {
     height: 100vh;
     background-color: #FDDED8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+.landing p {
+    margin-bottom: 24px;
+}
+
+.landing .btngroup-landing button{
+    border-radius: 2px;
+    width: 139px;
+    height: 48px;
+}
+
+.landing .btn-apply {
+    background-color: #3040C4;
+    color: #FFFFFF;
+}
+
+.landing .btn-learn {
+    background-color: #FFFFFF;
+    color: #3040C4;
+    
 }
 
 .testimonials {
@@ -94,3 +131,4 @@ p {
     height: 100vh;
     background-color: #FFFFFF;
 }
+
