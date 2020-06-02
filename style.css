@@ -52,7 +52,7 @@ p {
     p {
         font-size: 22px;
         line-height: 1.36363636;
-        
+
     }
 }
 
@@ -61,4 +61,36 @@ p {
     .container {
         max-width: 960px !important;
     }
+}
+
+/* CSS for mobile */
+
+.landing {
+    height: 100vh;
+    background-color: #FDDED8;
+}
+
+.testimonials {
+    height: 100vh;
+    background-color: #F4F5F7;
+}
+
+.program {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.curriculum {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.banner {
+    height: 100vh;
+    background-color: #F2F8FA;
+}
+
+.footer {
+    height: 100vh;
+    background-color: #FFFFFF;
 }
